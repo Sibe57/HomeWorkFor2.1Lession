@@ -8,10 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    override var supportedInterfaceOrientations : UIInterfaceOrientationMask     {
-        return .init(rawValue: 30)
-    }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
